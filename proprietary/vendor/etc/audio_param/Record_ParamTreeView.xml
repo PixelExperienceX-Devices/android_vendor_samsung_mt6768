@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamTreeView version="1.1">
+	<TreeRoot name="TX_DRC+DG">
+		<Sheet/>
+		<Feature name="DRC">
+			<FieldList>
+				<Field audio_type="Record" param="record_mode_para" name="48K Limiter's bounder"/>
+				<Field audio_type="Record" param="record_mode_para" name="48K Limiter's attack rate"/>
+				<Field audio_type="Record" param="record_mode_para" name="48K Limiter's release rate"/>
+				<Field audio_type="Record" param="record_mode_para" name="48k Expander"/>
+				<Field audio_type="Record" param="record_mode_para" name="48k Compressor"/>
+				<Field audio_type="Record" param="record_mode_para" name="UL mute 1sec"/>
+				<Field audio_type="Record" param="record_mode_para" name="UL IIR switch"/>
+				<Field audio_type="Record" param="record_mode_para" name="UL FIR switch"/>
+				<Field audio_type="Record" param="record_mode_para" name="Add 10dB Mic Gain switch"/>
+				<Field audio_type="Record" param="record_mode_para" name="48K AGC release threshold"/>
+				<Field audio_type="Record" param="record_mode_para" name="48K AGC release rate"/>
+			  <Field audio_type="Record" param="record_mode_para" name="48K AGC attack rate"/>
+			  <Field audio_type="Record" param="record_mode_para" name="48K AGC init gain"/>
+			  <Field audio_type="Record" param="record_mode_para" name="48K AGC switch"/>
+			  <Field audio_type="Record" param="record_mode_para" name="48K AGC minimum gain"/>
+			  <Field audio_type="Record" param="record_mode_para" name="48K DRC1 Switch"/>
+			  <Field audio_type="Record" param="record_mode_para" name="48K DRC2 Switch"/>
+			  <Field audio_type="Record" param="record_mode_para" name="48K GDRC bounder threshold"/>
+			  <Field audio_type="Record" param="record_mode_para" name="De-muter switch"/>
+			</FieldList>
+			<CategoryPathList>
+				<Category path=""/>
+			</CategoryPathList>
+		</Feature>
+		<Feature name="Digital Gain">
+			<FieldList>
+				<Field audio_type="Record" param="record_mode_para" name="UL Digital Gain"/>
+			</FieldList>
+			<CategoryPathList>
+				<Category path=""/>
+			</CategoryPathList>
+		</Feature>
+		<Feature name="Stereo Enhancement">
+			<FieldList>
+				<Field audio_type="Record" param="record_mode_para" name="Bass enhancement"/>
+				<Field audio_type="Record" param="record_mode_para" name="Richen"/>
+				<Field audio_type="Record" param="record_mode_para" name="Widen"/>
+			</FieldList>
+			<CategoryPathList>
+				<Category path=""/>
+			</CategoryPathList>
+		</Feature>
+	</TreeRoot>
+	<TreeRoot name="NREC">
+		<Sheet/>
+		<Feature name="NR">
+			<FieldList>
+				<Field audio_type="Record" param="record_mode_para" name="Thermal NR switch"/>
+				<Field audio_type="Record" param="record_mode_para" name="UL NR switch"/>
+				<Field audio_type="Record" param="record_mode_para" name="Thermal noise upper bound"/>
+				<Field audio_type="Record" param="record_mode_para" name="UL NR suppression strength"/>
+				<Field audio_type="Record" param="record_mode_para" name="UL NR suppress bound"/>
+				<Field audio_type="Record" param="record_mode_para" name="UL NR first 100ms init switch"/>
+				<Field audio_type="Record" param="record_mode_para" name="Thermal noise upper bound 328-1000Hz"/>
+				<Field audio_type="Record" param="record_mode_para" name="Thermal noise upper bound 0-300Hz"/>	
+				<Field audio_type="Record" param="record_mode_para" name="High band noise suppressor"/>
+			</FieldList>
+			<CategoryPathList>
+				<Category path=""/>
+			</CategoryPathList>
+		</Feature>
+	</TreeRoot>
+	<!-- TreeRoot2 -->
+	<!-- TreeRoot3... -->
+</ParamTreeView>
