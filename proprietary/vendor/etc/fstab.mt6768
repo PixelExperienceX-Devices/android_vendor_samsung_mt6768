@@ -6,21 +6,21 @@
 # 1 "<built-in>" 2
 # 1 "vendor/mediatek/proprietary/hardware/fstab/mt6768/fstab.in.mt6768" 2
 # 141 "vendor/mediatek/proprietary/hardware/fstab/mt6768/fstab.in.mt6768"
-system /system ext4 ro wait,=vbmeta,logical,first_stage_mount
+system /system ext4 ro wait,,avb=vbmeta,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
 
-vendor /vendor ext4 ro wait,,logical,first_stage_mount
-
-
-product /product ext4 ro wait,,logical,first_stage_mount
+vendor /vendor ext4 ro wait,,avb,logical,first_stage_mount
 
 
-odm /odm ext4 ro wait,,logical,first_stage_mount
+product /product ext4 ro wait,,avb,logical,first_stage_mount
+
+
+odm /odm ext4 ro wait,,avb,logical,first_stage_mount
 
 
 
 /dev/block/platform/bootdevice/by-name/md_udc	/metadata	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic,sync	wait,check,formattable,first_stage_mount
 
-/dev/block/platform/bootdevice/by-name/userdata	/data	f2fs	noatime,nosuid,nodev,discard,usrquota,grpquota,fsync_mode=nobarrier,reserve_root=32768,resgid=5678,inlinecrypt	wait,check,,quota,latemount,,reservedsize=128M,checkpoint=fs,encryptable=aes-256-xts:aes-256-cts:v1
+/dev/block/platform/bootdevice/by-name/userdata	/data	f2fs	noatime,nosuid,nodev,discard,usrquota,grpquota,fsync_mode=nobarrier,reserve_root=32768,resgid=5678,inlinecrypt	wait,check,,quota,latemount,,reservedsize=128M,checkpoint=fs,fileencryption=aes-256-xts:aes-256-cts:v1
 
 /dev/block/platform/bootdevice/by-name/cache	/cache	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
 
@@ -30,8 +30,8 @@ odm /odm ext4 ro wait,,logical,first_stage_mount
 /dev/block/platform/bootdevice/by-name/nvcfg	/mnt/vendor/nvcfg	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
 
 
-/dev/block/platform/bootdevice/by-name/prism /prism ext4 ro,barrier=1 nofail,first_stage_mount
-/dev/block/platform/bootdevice/by-name/optics /optics ext4 ro,barrier=1 nofail,first_stage_mount
+/dev/block/platform/bootdevice/by-name/prism /prism ext4 ro,barrier=1 nofail,avb,first_stage_mount
+/dev/block/platform/bootdevice/by-name/optics /optics ext4 ro,barrier=1 nofail,avb,first_stage_mount
 
 
 /dev/block/platform/bootdevice/by-name/persist	/mnt/vendor/persist	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
@@ -40,8 +40,8 @@ odm /odm ext4 ro wait,,logical,first_stage_mount
 /dev/block/platform/bootdevice/by-name/efs	/mnt/vendor/efs	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
 
 
-/dev/block/platform/bootdevice/by-name/keydata	/keydata	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic,inlinecrypt	wait,check,formattable,encryptable=aes-256-xts,nofail
-/dev/block/platform/bootdevice/by-name/keyrefuge	/keyrefuge	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic,inlinecrypt	wait,check,formattable,encryptable=aes-256-xts,nofail
+/dev/block/platform/bootdevice/by-name/keydata	/keydata	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic,inlinecrypt	wait,check,formattable,fileencryption=aes-256-xts,nofail
+/dev/block/platform/bootdevice/by-name/keyrefuge	/keyrefuge	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic,inlinecrypt	wait,check,formattable,fileencryption=aes-256-xts,nofail
 
 
 

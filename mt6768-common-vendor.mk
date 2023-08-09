@@ -214,20 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mt6768-common/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
     vendor/samsung/mt6768-common/proprietary/vendor/bin/lib3a.ccu.dm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.dm \
     vendor/samsung/mt6768-common/proprietary/vendor/bin/lib3a.ccu.pm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.pm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_gc5035_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_gc5035_mipi_raw.dm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_gc5035_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_gc5035_mipi_raw.pm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_gc5035b_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_gc5035b_mipi_raw.dm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_gc5035b_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_gc5035b_mipi_raw.pm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_hi2021q_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_hi2021q_mipi_raw.dm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_hi2021q_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_hi2021q_mipi_raw.pm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_imx576_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_imx576_mipi_raw.dm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_imx576_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_imx576_mipi_raw.pm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_imx582_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_imx582_mipi_raw.dm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_imx582_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_imx582_mipi_raw.pm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_s5k2x5sp13_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_s5k2x5sp13_mipi_raw.dm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_s5k2x5sp13_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_s5k2x5sp13_mipi_raw.pm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_s5kgm2_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_s5kgm2_mipi_raw.dm \
-    vendor/samsung/mt6768-common/proprietary/vendor/bin/libccu_s5kgm2_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_s5kgm2_mipi_raw.pm \
     vendor/samsung/mt6768-common/proprietary/vendor/bin/loghidlvendorservice:$(TARGET_COPY_OUT_VENDOR)/bin/loghidlvendorservice \
     vendor/samsung/mt6768-common/proprietary/vendor/bin/lsattr:$(TARGET_COPY_OUT_VENDOR)/bin/lsattr \
     vendor/samsung/mt6768-common/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
@@ -466,7 +452,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mt6768-common/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
     vendor/samsung/mt6768-common/proprietary/vendor/etc/bluetooth_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_offload_audio_policy_configuration.xml \
     vendor/samsung/mt6768-common/proprietary/vendor/etc/btcon.json:$(TARGET_COPY_OUT_VENDOR)/etc/btcon.json \
-    vendor/samsung/mt6768-common/proprietary/vendor/etc/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     vendor/samsung/mt6768-common/proprietary/vendor/etc/dax3_media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dax3_media_codecs_dolby_audio.xml \
     vendor/samsung/mt6768-common/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/samsung/mt6768-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
@@ -882,9 +867,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-permission-aidl-cpp.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib/gc5035_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5035_mipi_raw_tuning.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib/gc5035b_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5035b_mipi_raw_tuning.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib/hi2021q_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi2021q_mipi_raw_tuning.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@2.0-impl.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@6.0-impl.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@7.0-impl.so \
@@ -928,8 +910,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/hw/vibrator.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.mt6768.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/hw/vulkan.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt6768.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib/imx576_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx576_mipi_raw_tuning.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib/imx582_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx582_mipi_raw_tuning.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/libBeauty_v4.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBeauty_v4.camera.samsung.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/libDualCamBokehCapture.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDualCamBokehCapture.camera.samsung.so \
@@ -1191,9 +1171,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/mt6768/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libmtk_drvb.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/mt6768/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libnir_neon_driver.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/mt6768/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libpq_prot.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib/s5k2x5sp13_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2x5sp13_mipi_raw_tuning.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib/s5k4hayx_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k4hayx_mipi_raw_tuning.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib/s5kgm2_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgm2_mipi_raw_tuning.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/sensors.inputvirtual.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.inputvirtual.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
@@ -1267,12 +1244,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_qt.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-permission-aidl-cpp.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/gc5035_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5035_mipi_raw_IdxMgr.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/gc5035_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5035_mipi_raw_tuning.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/gc5035b_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5035b_mipi_raw_IdxMgr.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/gc5035b_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5035b_mipi_raw_tuning.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/hi2021q_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hi2021q_mipi_raw_IdxMgr.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/hi2021q_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hi2021q_mipi_raw_tuning.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@2.0-impl.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@6.0-impl.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@7.0-impl.so \
@@ -1322,10 +1293,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/hw/vibrator.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.mt6768.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/hw/vulkan.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mt6768.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/imx576_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx576_mipi_raw_IdxMgr.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/imx576_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx576_mipi_raw_tuning.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/imx582_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx582_mipi_raw_IdxMgr.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/imx582_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx582_mipi_raw_tuning.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.core.so \
@@ -1771,12 +1738,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/mt6768/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libpq_prot.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/s5k2x5sp13_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k2x5sp13_mipi_raw_IdxMgr.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/s5k2x5sp13_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k2x5sp13_mipi_raw_tuning.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/s5k4hayx_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k4hayx_mipi_raw_IdxMgr.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/s5k4hayx_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k4hayx_mipi_raw_tuning.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/s5kgm2_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm2_mipi_raw_IdxMgr.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/lib64/s5kgm2_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm2_mipi_raw_tuning.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/sensors.inputvirtual.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.inputvirtual.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
@@ -1886,13 +1847,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so \
     vendor/samsung/mt6768-common/proprietary/vendor/lib64/vintf-codecsolution-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vintf-codecsolution-V2-ndk_platform.so \
-    vendor/samsung/mt6768-common/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
-    vendor/samsung/mt6768-common/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
-    vendor/samsung/mt6768-common/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
-    vendor/samsung/mt6768-common/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
-    vendor/samsung/mt6768-common/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
-    vendor/samsung/mt6768-common/proprietary/vendor/ro.prop:$(TARGET_COPY_OUT_VENDOR)/ro.prop \
-    vendor/samsung/mt6768-common/proprietary/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop \
     vendor/samsung/mt6768-common/proprietary/vendor/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.tf:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.tf \
     vendor/samsung/mt6768-common/proprietary/vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_detector/aig_detector_cnn.tflite \
     vendor/samsung/mt6768-common/proprietary/vendor/saiv/image_understanding/db/smartscan_verifier/document_verifier_cnn.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/smartscan_verifier/document_verifier_cnn.tflite \
